@@ -1,0 +1,189 @@
+h2 {
+	font-family: Lato;
+	font-size:35px;
+}
+
+ul li, p{
+	font-family: Lato;
+}
+
+.carousel {
+ height: 400px;
+}
+
+.carousel-caption {
+  z-index: 10;
+}
+
+
+.carousel .item {
+  height:400px; 
+  background-color: #777;
+}
+
+.carousel .item h3  {
+	color:#003366;
+	font-size:53px;
+}
+.carousel .item p{
+	color:gray;
+	text-align:center;
+}
+
+.carousel-inner > .item > img {
+  position: absolute;
+  bottom: -25%;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+}
+
+.container{
+	margin:auto;
+	max-width:1000px;
+}
+
+.person{
+	border:10px solid transparent;
+	margin-bottom: 25px;
+	width:65%;
+	height:65%;
+	opacity:0.7;
+}
+
+.person:hover{
+	border-color: #f1f1f1;
+}
+
+.myimage{
+	text-align:center;
+	padding:0;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    font-size: 11px !important;
+    letter-spacing: 4px;
+    opacity:0.9;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: brown !important;
+	margin-left:48px;
+}
+
+.navbar-nav li a:hover {
+    color: black !important;
+}
+
+#freecode,#online, #developer, #ggc{
+	padding-top:8px;
+	padding-left:25px;
+}
+
+.button{
+	background-color:#a3c2c2;
+	color:gray;
+}
+
+.title_menu{
+	padding-top:33px;
+	padding-bottom:33px;
+}
+
+.title_menu ul{
+	list-style: none;
+	text-align: left;
+}
+.education{
+	border:2px solid gray;
+	width:350px !important;
+	height:260px;
+	padding:10px 10px;
+	margin:10px 10px;
+}
+
+.thumbnail {
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
+}
+
+.thumbnail img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+}
+
+
+.socialmedia {
+	padding-top: 10px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+    text-align: center;
+	display: block;
+}
+
+#contact{
+	display: block;
+}
+
+#github {
+	font-size: 24px;
+	margin-right:20px;
+}
+
+#linkedin {
+	font-size: 24px;
+	margin-right:20px;
+}
+
+#twitter {
+	font-size: 24px;
+}
+
+p{
+	font-size:18px;
+	text-align: justify;
+}
+
+h3{
+	font-size:12px;
+}
+
+.portfolioh4{
+	padding:10px 0 15px 0;
+}
+
+.website{
+	text-align:center;
+	color:#003366;
+}
+
+.featurette{
+	padding-top:25px;
+	
+}
+.featurette .col-md-5 {
+    padding-top: 26px;
+}
+
+.featurette-heading{
+	padding-bottom:15px;
+	background-color:#ccf5ff;
+	border:1px solid black;
+}
+
+.task{
+	background-color:#ccf5ff;
+	text-align:center;
+}
+
+@media (max-width: 600px){
+	.carousel {
+		display:none;
+		height:200px; 
+		background-color: #777;
+	}
+}
