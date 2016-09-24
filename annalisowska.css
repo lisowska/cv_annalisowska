@@ -5,6 +5,7 @@ h2 {
 
 ul li, p{
 	font-family: Lato;
+	list-style-type:circle;
 }
 
 .carousel {
@@ -82,7 +83,7 @@ ul li, p{
 	padding-left:25px;
 }
 
-.button{
+.btn{
 	background-color:#a3c2c2;
 	color:gray;
 }
@@ -171,8 +172,11 @@ h3{
 
 .featurette-heading{
 	padding-bottom:15px;
+	padding-top:15px;
 	background-color:#ccf5ff;
-	border:1px solid black;
+	
+	text-align:center;
+	font-weight: bold;
 }
 
 .task{
